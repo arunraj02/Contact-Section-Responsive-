@@ -1,0 +1,99 @@
+/* Mobile View */
+@media(min-width:320px){
+	.contact_col1, .contact_col2, .contact_col3{
+		width:100%;
+		padding:10px;
+	}
+	
+	.contact_title p{
+		font-size:22px;
+		font-weight:bold;
+		padding:10px;
+	}
+	.location_icon, .email_icon, .call_icon{
+		width:35px;
+		height:35px;
+		padding:8px 0;
+	}	
+	.location_icon, .email_icon, .call_icon i{
+		font-size:15px;
+	}
+	.location_details, .email_details, .call_icon h4{
+		font-size:18px
+	}
+	
+	.location_details, .email_details, .call_icon p{
+		font-size:10px
+	}
+}
+	
+/* Tablet View */
+@media(min-width:767px){
+	.contact_col1, .contact_col2, .contact_col3{
+		width:100%;
+		padding:10px;
+	}
+	
+	.contact_title p{
+		font-size:30px;
+		font-weight:bold;
+		padding:10px;
+	}
+	.location_icon, .email_icon, .call_icon{
+		width:40px;
+		height:40px;
+		padding:9px 0;
+	}	
+	.location_icon, .email_icon, .call_icon i{
+		font-size:18px;
+	}
+	.location_details, .email_details, .call_icon h4{
+		font-size:20px
+	}
+	
+	.location_details, .email_details, .call_icon p{
+		font-size:14px
+	}
+}
+
+/* Desktop View */
+@media(min-width:1200px){
+	.contact_col1{
+		width:100%;
+		padding:10px;
+	}
+	
+	.contact_col2{
+		width:40%;
+		padding:10px;
+	}
+	
+	.contact_col3{
+		width:60%;
+		padding:10px;
+	}
+	
+	.contact_title p{
+		font-size:36px;
+		font-weight:bold;
+		padding:10px;
+	}
+	
+	.location_icon, .email_icon, .call_icon{
+		width:45px;
+		height:45px;
+		padding:10px 0;
+	}
+	
+	.location_icon, .email_icon, .call_icon i{
+		font-size:22px;
+	}
+	
+	.location_details, .email_details, .call_icon h4{
+		font-size:28px
+	}
+	
+	.location_details, .email_details, .call_icon p{
+		font-size:16px
+	}
+}

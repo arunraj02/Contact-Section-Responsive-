@@ -1,0 +1,150 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+
+.container{
+	width:80%;
+	margin:auto;
+}
+
+.contact_title h2{
+	font-family:poppins;
+	font-size:14px;
+	color:#AAAAAA;
+	letter-spacing:2px;
+	margin-left:12px;
+}
+
+.contact_title p{
+	font-family:poppins;
+	font-size:36px;
+	font-weight:bold;
+	color:#151515;
+}
+
+h2::after{
+	content:"";
+	width:120px;
+	height:2px;
+	display:inline-block;
+	background-color:#FFDE9E;
+	margin:4px 10px;
+}
+
+.contact_row{
+	display:flex;
+	flex-wrap:wrap;
+}
+
+.contact_col1{
+	width:100%;
+	padding:10px;
+}
+
+.contact_col2{
+	width:40%;
+	padding:10px;
+}
+
+.contact_col3{
+	width:60%;
+	padding:10px;
+}
+
+.contact_location, .contact_email, .contact_call{
+	display:flex;
+	justify-content:space-between;
+	padding-top:15px;
+	padding-bottom:30px;
+}
+
+.location_details, .email_details, .call_details{
+	width:85%
+}
+
+.call_details h4{
+	font-family:raleway;
+	font-size:22px;
+	color:#151515;
+}
+
+.location_details h4{
+	font-family:raleway;
+	font-size:22px;
+	color:#151515;
+}
+
+.email_details h4{
+	font-family:raleway;
+	font-size:22px;
+	color:#151515;
+}
+
+.call_details p{
+	font-family:Open Sans;
+	font-size:14px;
+	color:#484848;
+}
+
+.location_details p{
+	font-family:Open Sans;
+	font-size:14px;
+	color:#484848;
+}
+
+.email_details p{
+	font-family:Open Sans;
+	font-size:14px;
+	color:#484848;
+}
+
+.location_icon, .email_icon, .call_icon{
+    width:45px;
+	height:45px;
+	border:1 px #ffc451;
+	border-radius:5px;
+	background-color:#ffc451;
+	text-align:center;
+	padding:10px 0;
+}
+
+.location_icon, .email_icon, .call_icon i{
+	font-size:20px;
+}
+
+.contact-forms{
+	display:flex;
+	flex-wrap:wrap;
+	width:100%;
+}
+
+.name, .mail{
+	width:50%;
+	padding:15px;
+}
+
+.sub, .msg, .msg_button{
+	width:100%;
+	padding:15px;
+}
+
+.contact-forms input, .contact-forms textarea{
+	width:100%;
+	padding:15px;
+	border:1px solid #ccc;
+	border-radius:5px;
+	color:#ccc;
+	font-size:16px;
+}
+
+.msg_button button{
+	display:block;
+	margin:auto;
+	border:none;
+	background-color:#ffc451;
+	padding:1rem 2rem;
+	border-radius:5px;
+	font-size:24px;
+}
